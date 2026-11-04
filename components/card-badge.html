@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kartu dengan Badge</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        #top {
+            padding: 20px;
+            background-color: #1a252f;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        #top h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .card {
+            position: relative;
+            width: 360px;
+            margin: 30px auto;
+            border: 1px solid #cccccc;
+            border-radius: 8px;
+            padding: 16px;
+            background-color: #ffffff;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+            display: block;
+        }
+
+        .card .badge {
+            position: absolute;
+            top: 26px;
+            right: 26px;
+            background-color: #e67e22;
+            color: #ffffff;
+            border-radius: 4px;
+            padding: 4px 8px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .card h3 {
+            color: #1a252f;
+            margin-top: 12px;
+            margin-bottom: 6px;
+        }
+
+        .card p {
+            color: #555555;
+            font-size: 14px;
+            margin: 0;
+        }
+
+        main p {
+            width: 360px;
+            margin: 15px auto;
+            color: #444444;
+            line-height: 1.6;
+            font-size: 14px;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+            background-color: #1a252f;
+            color: #ffffff;
+            padding: 10px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .back-to-top:hover {
+            background-color: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <header id="top">
+        <h1>Proyek Saya</h1>
+    </header>
+
+    <main>
+        <div class="card">
+            <img src="../assets/images/proyek2.jpg" alt="Aplikasi Catatan Harian">
+            <span class="badge">BARU</span>
+            <h3>Aplikasi Catatan Harian</h3>
+            <p>Proyek terbaru saya: halaman pencatat kegiatan harian dengan tampilan sederhana.</p>
+        </div>
+
+        <p>Paragraf pengisi 1. Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar.</p>
+        <p>Paragraf pengisi 2. Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar.</p>
+        <p>Paragraf pengisi 3. Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar.</p>
+        <p>Paragraf pengisi 4. Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar.</p>
+        <p>Paragraf pengisi 5. Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar.</p>
+        <p>Paragraf pengisi 6. Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar.</p>
+        <p>Paragraf pengisi 7. Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar.</p>
+    </main>
+
+    <footer style="text-align: center; margin: 30px 0;">
+        <a href="../index.html">Kembali ke Beranda</a>
+    </footer>
+
+    <a href="#top" class="back-to-top">↑ Ke Atas</a>
+</body>
+</html>
